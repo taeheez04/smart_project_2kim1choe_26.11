@@ -1,0 +1,1 @@
+# smart_project_2kim1choe_26.11
