@@ -1,0 +1,14 @@
+// 각자 컴퓨터로 가져가기 <cmd에 작성할 것>
+git clone https://github.com/계정이름/저장소이름.git
+cd 저장소이름
+
+// 업데이트 된 내용을 받을 때
+git pull                       # 최신 내용 받기
+git checkout -b feature/기능이름   # 내 브랜치 만들기
+
+# ... 코드 작성 ...
+
+// 자신의 작업이 끝났을 때
+git add .
+git commit -m "로그인 기능 추가"
+git push origin feature/기능이름
